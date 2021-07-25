@@ -9,7 +9,6 @@ salaries = [
 names = list(map(lambda tup: tup[0], salaries))
 salary_values = list(map(lambda tup: tup[1], salaries))
 
-data = go.Scatter(x=names, y=salary_values)
 layout = {
 	'title': 'Salaries with plotly'
 }
